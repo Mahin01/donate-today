@@ -24,7 +24,7 @@
 .text-primary{
     color: #707070;
     margin: 30px 0px;
-    font-size: 20px;
+    font-size: 18px;
 }
 /* Header styles */
 header{
@@ -102,7 +102,7 @@ header .site-info{
     display: flex;
     justify-content: space-between;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .donate-sector-1, .donate-sector-2, .donate-sector-3{
@@ -133,5 +133,81 @@ header .site-info{
     color: #707070;
 }
 
+/* Inspiration section Design */
+.inspire{
+    width: 900px;
+    margin: 0 auto;
+}
+.inspire-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
 
+.inspire-container .content, inspire-image{
+    width: 400px;
+} 
+
+.inspire-container img{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.content .content-heading{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+/* Subscribe Section Styles */
+
+.subscribe{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subscribe .subscribe-form{
+    width:700px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+    margin-bottom: 120px;
+}
+
+.subscribe-form input{
+    width: 300px;
+    background: #D9D9D9;
+    color: #AA9F9F;
+    border: none;
+    outline: none;
+    padding: 10px; 
+    margin: 60px 0px;
+}
+
+.subscribe-form button{
+    position: relative;
+    right: 7px;
+    background: #FF5959;
+    color: #FFFFFF;
+    padding:10px;
+    border: none;
+}
+
+/* Footer Part Styles */
+
+footer{
+    height: 120px;
+    background-color: #0B0D17;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer .footer-heading{
+    color: #FF5959;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 20px 0px;
+}
 
