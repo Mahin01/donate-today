@@ -1,0 +1,41 @@
+/* Universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    background: #FF5959;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+/* Header styles */
+header{
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(35, 33, 33, 0.7)), url(images/donation6.jpg); 
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+header .site-info{
+    width: 800px;
+    padding: 150px 0px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.site-info .site-motto{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.site-info .site-description{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
